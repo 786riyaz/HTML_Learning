@@ -1,1 +1,35 @@
 Title Tag
+area label
+
+
+b vs strong tag
+i vs em tag ::: HTML Phase 1 Note
+meta tags like charset, viewport, description
+area attributes
+    aria-label, aria-hidden, role
+Data Attributes
+    data-id
+Form Validation
+    pattern, min. max
+Responsive Image with <Picture> Tag
+    <picture> <meter value="0.6"></meter>
+        <source media="(max-width: 600px) srcset="mobile.jpg">
+        <source media="(min-width: 601px) srcset="desktop.jpg">
+        <img src="desktop.jpg" alt="Responsive Image">
+    </picture>
+srcset
+    <img
+    src="small.jpg"
+    srcset="small.jpg 480w, medium.jpg 768w, large.jpg 1200w"
+    sizes="(max-width: 600px) 100vw, 50vw"
+    alt="Sample image">
+<details> & <summary>
+    <details>
+    <summary>Read more</summary>
+    <p>This is hidden content.</p>
+    </details>
+progress vs meter
+<meter value="0.6"></meter>
+<progress value="70" max="100"></progress>
+template tag
+noscript
